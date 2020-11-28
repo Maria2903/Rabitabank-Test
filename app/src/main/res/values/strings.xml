@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Rabitabank Test</string>
+    <string name="text_chat">Start typing...</string>
+    <string name="search_text">Search for friends</string>
+</resources>

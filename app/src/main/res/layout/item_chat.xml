@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:clipToPadding="false"
+        android:paddingVertical="10dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="15dp">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tvMessage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/background_right"
+                    android:elevation="2dp"
+                    android:gravity="center|left"
+                    android:padding="10dp"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="12dp"
+                    android:text="Hello) How are you?) Where did you fly to rest?=)"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/iv_right"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@+id/rl_right"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/photo1"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:id="@+id/rl_left"
+        android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/rl_left_item"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMessage2"
+                android:background="@drawable/background_left"
+                android:elevation="2dp"
+                android:gravity="center|left"
+                android:padding="10dp"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="12dp"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="50dp"
+                android:text="Hello! I'm super! My family and I flew to Bali)" />
+
+
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/photo2"
+            android:id="@+id/iv_left"
+            android:layout_alignBottom="@+id/rl_left_item"
+            android:layout_gravity="left|bottom" />
+
+
+
+    </RelativeLayout>
+        </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        android:id="@+id/rl_left7"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/rl_left_item7"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvMessage27"
+                    android:padding="10dp"
+                    android:paddingVertical="12dp"
+                    android:paddingHorizontal="16dp"
+                    android:elevation="2dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="45dp"
+                    android:background="@drawable/see" />
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/photo2"
+                android:id="@+id/iv_left7"
+                android:layout_alignBottom="@+id/rl_left_item7"
+                android:layout_gravity="left|bottom" />
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingRight="15dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:paddingLeft="100dp"
+        android:clipToPadding="false"
+        android:id="@+id/rl_right6">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:id="@+id/rl6"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvMessage6"
+                    android:elevation="2dp"
+                    android:paddingVertical="12dp"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="left"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/background_right"
+                    android:text="Very beautiful) Have a nice rest)" />
+
+                <ImageView
+                    android:id="@+id/iv_right66"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="3dp"
+                    android:layout_alignBottom="@+id/rl6"
+                    android:background="@drawable/photo1"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
